@@ -1,0 +1,21 @@
+{
+  "name": "cloud-accelerator-docs",
+  "version": "0.0.0",
+  "description": "Cloud client accelerator documentation",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [
+    "terraform",
+    "cloud",
+    "aws"
+  ],
+  "author": "Austin Brage",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.2.3"
+  }
+}
