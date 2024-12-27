@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Cloud Accelerator",
+  title: "Cloud studio",
   description: "Terraform Client for fast devop",
   head: [
     ['link', { rel: "icon", type: 'image/svg+xml', href: "/cloudLogoHead.svg"}],
@@ -35,7 +35,7 @@ function nav() {
     },
     {
       text: 'Guide',
-      link: '/guide/what-is-cca',
+      link: '/guide/what-is-cloudstudio',
       activeMatch: '/guide/'
     }
   ]
@@ -47,7 +47,7 @@ function sidebarGuide() {
       text: 'Introduction',
       collapsed: false,
       items: [
-        { text: 'What is CAccelerator?', link: 'what-is-cca' },
+        { text: 'What is CloudStudio?', link: 'what-is-cloudstudio' },
         { text: 'Getting Started', link: 'getting-started' },
       ]
     }

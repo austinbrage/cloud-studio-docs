@@ -2,13 +2,13 @@
 layout: home
 
 hero:
-  name: Cloud accelerator
-  text: Terraform Client for fast devops.
-  tagline: Edit and run the .tf files on a intuitive UI.
+  name: Cloud studio
+  text: Dektop app for fast devops.
+  tagline: Edit and run the TERRAFORM and ANSIBLE files on an intuitive UI.
   actions:
     - theme: brand
-      text: What is CCA?
-      link: /guide/what-is-cca
+      text: What is it?
+      link: /guide/what-is-cloudstudio
     - theme: alt
       text: Get Started
       link: /guide/getting-started

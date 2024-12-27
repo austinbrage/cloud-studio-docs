@@ -1,7 +1,7 @@
 {
-  "name": "cloud-accelerator-docs",
+  "name": "cloud-studio-docs",
   "version": "0.0.0",
-  "description": "Cloud client accelerator documentation",
+  "description": "Cloud studio documentation",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",
