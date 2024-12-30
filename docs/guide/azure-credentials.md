@@ -10,7 +10,7 @@ The credentials in AZURE include FOUR values; a client id, a client secret, a te
 
 ## AAD and Subscriptions
 
-The azure active directory are used for external applications (like CloudStudio) to access resources on a AZURE account, controling its access through roles and permissions.
+The azure active directory is used for external applications (like CloudStudio) to access resources on a AZURE account, controling its access through roles and permissions.
 
 :::info
 An application is created in AAD, which generates a client_id and allows a client_secret to be configured.
@@ -62,6 +62,40 @@ And also this application is tied to a specific tenant identified by the tenant_
 11. Copy the Subscription_ID that refers to the current subscription
 
 ![An image](../public/azure_credentials/azure_credentials_subscriptions_copy.png)
+
+:::info Roles and Permissions
+Now in order to be able to use the registered app and the chosen subscription to connect to azure resources, the app must have a CONTRIBUTOR role assigned to the same subscription.
+
+- **So after copying all the keys and secrets, they won't work unless the app is added as CONTRIBUTOR on the role assignment list on the IAM panel of the subscription.**
+:::
+
+12. Go to "Access control (IAM)" link on the leftside menu
+
+![An image](../public/azure_credentials/azure_credentials_subscriptions_iam_link.png)
+
+13. On the opened console click "Add" and then click "Add role assignment"
+
+![An image](../public/azure_credentials/azure_credentials_subscriptions_iam.png)
+
+14. Choose the "contributor" role on the "Privileged administrator roles" section, click "next" 
+
+![An image](../public/azure_credentials/azure_credentials_subscriptions_iam_role_assignment_1.png)
+
+15. Choose the "User, group or service principal" option and click "Select members"
+
+![An image](../public/azure_credentials/azure_credentials_subscriptions_iam_role_assignment_2.png)
+
+16. Search and select the app registered previously and click "Select"
+
+![An image](../public/azure_credentials/azure_credentials_subscriptions_iam_role_assignment_3.png)
+
+17. Add a description if you want to and click "next"
+
+![An image](../public/azure_credentials/azure_credentials_subscriptions_iam_role_assignment_4.png)
+
+18. Check all the information and click "Review + assign"
+
+![An image](../public/azure_credentials/azure_credentials_subscriptions_iam_role_assignment_5.png)
 
 ## Add secrets to CloudStudio
 
