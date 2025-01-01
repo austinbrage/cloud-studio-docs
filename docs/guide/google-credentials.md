@@ -18,35 +18,35 @@ Every service account belongs to an specific project within GCP, so every resour
 
 1. First go to the "Security accounts" console after logging in
 
-![An image](../public/gcp_credentials/gcp_credentials_sidemenu.png)
+![An image](../assets/images/gcp_credentials/gcp_credentials_sidemenu.png)
 
 2. In the new opened console click "Create Service Account" 
 
-![An image](../public/gcp_credentials/gcp_credentials_service_accounts.png)
+![An image](../assets/images/gcp_credentials/gcp_credentials_service_accounts.png)
 
 3. Give it a name and appropriate description
 
-![An image](../public/gcp_credentials/gcp_credentials_create_service_account.png)
+![An image](../assets/images/gcp_credentials/gcp_credentials_create_service_account.png)
 
 4. Grant "Owner" role to access most GCP resources within that project
 
-![An image](../public/gcp_credentials/gcp_credentials_service_account_permissions.png)
+![An image](../assets/images/gcp_credentials/gcp_credentials_service_account_permissions.png)
 
 5. Skip the "Grant users access" step and confirm operation
 
-![An image](../public/gcp_credentials/gcp_credentials_service_account_confirm.png)
+![An image](../assets/images/gcp_credentials/gcp_credentials_service_account_confirm.png)
 
 6. Back to the Service accounts list, select the recently created and click "Manage Keys"
 
-![An image](../public/gcp_credentials/gcp_credentials_service_account_keys.png)
+![An image](../assets/images/gcp_credentials/gcp_credentials_service_account_keys.png)
 
 7. Click on the selector "Add Key" and then on the "Create New Key" option
 
-![An image](../public/gcp_credentials/gcp_credentials_service_account_create_key.png)
+![An image](../assets/images/gcp_credentials/gcp_credentials_service_account_create_key.png)
 
 8. Choose JSON format and click on "Create" to download the credentials file
 
-![An image](../public/gcp_credentials/gcp_credentials_service_account_create_key_confirm.png)
+![An image](../assets/images/gcp_credentials/gcp_credentials_service_account_create_key_confirm.png)
 
 ## Add secrets to CloudStudio
 
@@ -54,16 +54,16 @@ Every service account belongs to an specific project within GCP, so every resour
 After downloading the credentials JSON file, its content should look like this
 :::
 
-![An image](../public/gcp_credentials/gcp_credentials_example.png)
+![An image](../assets/images/gcp_credentials/gcp_credentials_example.png)
 
 1. Go to the Google provider on the CloudStudio dashboard and click "add secret"
 
-![An image](../public/gcp_credentials/gcp_credentials_cloud_studio_add_1.png)
+![An image](../assets/images/gcp_credentials/gcp_credentials_cloud_studio_add_1.png)
 
 2. Copy the root to the JSON file, paste it on the app_credentials value and apply changes
 
-![An image](../public/gcp_credentials/gcp_credentials_cloud_studio_add_2.png)
+![An image](../assets/images/gcp_credentials/gcp_credentials_cloud_studio_add_2.png)
 
 3. Finally set created secret to the current app environment
 
-![An image](../public/gcp_credentials/gcp_credentials_cloud_studio_add_3.png)
+![An image](../assets/images/gcp_credentials/gcp_credentials_cloud_studio_add_3.png)

@@ -12,11 +12,8 @@ hero:
     - theme: alt
       text: Get Started
       link: /guide/getting-started
-    - theme: alt
-      text: Install now
-      link: https://bragetools.com
   image:
-    src: /cloudLogo.svg
+    src: /assets/svg/cloudLogo.svg
     alt: BrageTools
 
 

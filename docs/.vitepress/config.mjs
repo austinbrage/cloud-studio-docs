@@ -4,11 +4,11 @@ export default defineConfig({
   title: "Cloud studio",
   description: "Desktop App for fast devop documentation",
   head: [
-    ['link', { rel: "icon", type: 'image/svg+xml', href: "/cloudLogoHead.svg"}],
+    ['link', { rel: "icon", type: 'image/svg+xml', href: "/assets/svg/cloudLogoHead.svg"}],
   ],
 
   themeConfig: {
-    logo: { src: '/cloudLogoHead.svg', width: 24, height: 24 },
+    logo: { src: '/assets/svg/cloudLogoHead.svg', width: 24, height: 24 },
 
     nav: nav(),
 
