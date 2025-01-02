@@ -20,13 +20,13 @@ hero:
 features:
   - icon: 📝
     title: Prebuilt infrastructures
-    details: Edit and work upon functional terraform files.
-  - icon: <svg viewBox="-17.5 0 291 291" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <polygon fill="#4040B2" points="176.485057 188.994162 256.000302 143.127442 256.000302 51.2485453 176.485057 97.2122358"> </polygon> <path d="M88.2425283,51.2485453 L167.757774,97.2122358 L167.757774,188.994162 L88.2425283,143.078957 M0,91.8304113 L79.5152453,137.745617 L79.5152453,45.9152057 L0,0 M88.2425283,244.994228 L167.757774,290.909434 L167.757774,199.079023 L88.2425283,153.163817" fill="#5C4EE5"> </path> </g> </g></svg>
-    title: Enjoy the Terraform Experience
-    details: Manage your Cloud provider entirely through .tf files without touching its dashboard.
+    details: Edit and work upon pre-built functional code projects.
+  - icon: <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none" stroke-linejoin="round" stroke-width="4"><path fill="#2f88ff" stroke="#000" d="M5 8C5 6.89543 5.89543 6 7 6H19L24 12H41C42.1046 12 43 12.8954 43 14V40C43 41.1046 42.1046 42 41 42H7C5.89543 42 5 41.1046 5 40V8Z"/><path stroke="#fff" stroke-linecap="round" d="M28 22L33 27L28 32"/><path stroke="#fff" stroke-linecap="round" d="M20 22L15 27L20 32"/></g></svg>
+    title: Enjoy a fluent code experience
+    details: Manage your infrastructure with a built-in code editor.
   - icon: 🚀
     title: Ship Fast DEVOPS
-    details: Fast development on Devops operations for any application.
+    details: Fast development for any application on any environment (dev, prod, stage).
 ---
 
 <style>
