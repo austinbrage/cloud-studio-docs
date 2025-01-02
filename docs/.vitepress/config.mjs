@@ -49,6 +49,7 @@ function sidebarGuide() {
       items: [
         { text: 'What is CloudStudio?', link: 'what-is-cloudstudio' },
         { text: 'Getting Started', link: 'getting-started' },
+        { text: 'Examples', link: 'app-examples' },
       ]
     },
     {
@@ -70,7 +71,7 @@ function sidebarGuide() {
     },
     {
       text: 'Credentials',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: 'AWS credentials', link: 'aws-credentials' },
         { text: 'AZURE credentials', link: 'azure-credentials' },
