@@ -52,6 +52,15 @@ function sidebarGuide() {
       ]
     },
     {
+      text: 'Providers',
+      collapsed: true,
+      items: [
+        { text: 'AWS provider', link: 'aws-provider' },
+        { text: 'AZURE provider', link: 'azure-provider' },
+        { text: 'GOOGLE provider', link: 'google-provider' },
+      ]
+    },
+    {
       text: 'Credentials',
       collapsed: false,
       items: [
