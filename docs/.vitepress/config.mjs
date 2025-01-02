@@ -52,6 +52,14 @@ function sidebarGuide() {
       ]
     },
     {
+      text: 'Tools',
+      collapsed: true,
+      items: [
+        { text: 'Terraform', link: 'terraform-tool' },
+        { text: 'Ansible', link: 'ansible-tool' },
+      ]
+    },
+    {
       text: 'Providers',
       collapsed: true,
       items: [
