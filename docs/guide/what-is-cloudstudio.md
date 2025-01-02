@@ -2,7 +2,7 @@
 
 [Cloud Studio](https://brage.pages.dev), is a desktop application designed for creating fast and reliable infrastructure on any cloud provider.
 
-It edits terraform files on the screen interface and gives action butons to run the basic terraform commands for your current cloud provider.
+It edits TERRAFORM and ANSIBLE files on the screen interface and gives action buttons to run the main commands for these tools on your current cloud provider.
 
 <div class="tip custom-block" style="padding-top: 8px">
 
@@ -12,11 +12,11 @@ Just want to try it out? Skip to the [Quickstart](./getting-started).
 
 ## How it works?
 
-Through a desktop application that creates, edits and executes ***.tf files*** made on the UI, saving these files on the user file system for sharing or customizing outside CloudStudio.
+Through a desktop application that creates, edits and executes ***terraform and ansible files*** made on the UI, saving these files on the user file system.
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-Just want to see it in action? Skip to the [Examples](./queries).
+Just want to see it in action? Skip to the [Examples](./app-examples).
 
 </div>
 
@@ -25,9 +25,9 @@ Just want to see it in action? Skip to the [Examples](./queries).
 
 - **Web and data engineers with no devops experience**
 
-  > A common use of CloudStudio is building infrastructure with little or no knowledge of Devops, either with the cloud provider's dashboard or the Terraform tool.. 
+  > A common use of CloudStudio is building infrastructure with little or no knowledge of Devops, scaffolding built-in templates for new projects on the dashboard.
   
-  > ***How?: The application provides reliable and tested terraform code files, editable by the user within a opinionated UI. [CloudStudio gives IaC, you edit it and run it]***
+  > ***How?: The application provides reliable and tested terraform/ansible code files, editable by the user on a intuitive UI. [CloudStudio gives IaC, you edit it and run it]***
 
 - **Big complecated Infrastructure**
 
@@ -39,13 +39,15 @@ Just want to see it in action? Skip to the [Examples](./queries).
 
   > Another common use is the creation of demos quickly in cases where an infrastructure is required to test a project or functionality. 
 
-  > ***How?: Sometimes we work with clients or teams that need to see a previous application working before starting to develop. [CloudStudio does it all at once]***
+  > ***How?: Sometimes we work with clients or teams that need to see a previous application working before starting on production. [CloudStudio does it all at once]***
 
 ## Description
 
-It is a desktop application made in ElectronJS, which currently works on the creation of infrastructure on the **Amazon Web Services** provider.
+It is a desktop application made in ElectronJS, which uses a work directory to store and manage the folder and files of the cloud projects.
 
-::: warning Only AWS Infrastructure
+::: info Official Workdir
 
-***Currently it only works with `Amazon Web Services`, therefore it only generates and runs Terraform files for aws products.***
+***Stored on a public GitHub repo there is an official workdir https://github.com/austinbrage/cloud-studio-docs that is intened to be used by the DESKTOP APP.***
+
+- This repo contains templates for projects on the 3 main cloud providers; AWS, AZURE, GOOGLE 
 :::
