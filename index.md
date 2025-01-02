@@ -13,7 +13,7 @@ hero:
       text: Get Started
       link: /guide/getting-started
   image:
-    src: /assets/svg/cloudLogo.svg
+    src: /cloudLogo.svg
     alt: BrageTools
 
 
