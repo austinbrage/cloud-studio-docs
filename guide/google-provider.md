@@ -4,7 +4,7 @@ outline: deep
 
 # What is GCP?
 
-[Google Cloud Platform](https://cloud.google.com/) is the **third-largest** cloud provider with a 13% market share as of third quarter of 2024 ( Offered by Google LLC. and launched in 2008 ).
+[Google Cloud Platform](https://cloud.google.com/) is the **third-largest** cloud provider with a 12% market share as of the third quarter of 2024 ( Offered by Google LLC. and launched in 2008 ).
 
 *Offering over 200 cloud services across many common technologies, known for its strengths in data analytics and machine learning capabilities.*
 

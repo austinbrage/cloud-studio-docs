@@ -4,7 +4,7 @@ outline: deep
 
 # What is AWS?
 
-[Amazon Web Services](https://aws.amazon.com/free) is the **largest** cloud provider with a 32% market share as of the second quarter of 2024 ( Offered by Amazon Inc. and launched in 2006 ).
+[Amazon Web Services](https://aws.amazon.com/free) is the **largest** cloud provider with a 31% market share as of the third quarter of 2024 ( Offered by Amazon Inc. and launched in 2006 ).
 
 *Offering over 250 fully featured services for a wide range of technologies and use cases, spanning from computing, storage, databases, analytics, machine learning, and more.*
 

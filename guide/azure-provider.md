@@ -4,7 +4,7 @@ outline: deep
 
 # What is Azure?
 
-[Microsoft Azure](https://azure.microsoft.com/en-us/free) is the **second-largest** cloud provider with a 24% market share as of the first quarter of 2024. ( Offered by Microsoft Corp. and launched in 2010 ).
+[Microsoft Azure](https://azure.microsoft.com/en-us/free) is the **second-largest** cloud provider with a 20% market share as of the third quarter of 2024. ( Offered by Microsoft Corp. and launched in 2010 ).
 
 *Offering over 200 cloud services across many technologies, Azure covers areas such as computing, storage, databases, particularly strong in AI, machine learning, and analytics.*
 
