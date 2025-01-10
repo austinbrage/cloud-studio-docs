@@ -51,3 +51,25 @@ It is a desktop application made in ElectronJS, which uses a work directory to s
 
 - This repo contains templates for projects on the 3 main cloud providers; AWS, AZURE, GOOGLE 
 :::
+
+## Important
+
+Here there are a couple of things to consider when using the Cloudstudio app.
+
+::: warning Only LOCAL projects
+
+***The app is set and strongly prepared to work with local projects, therefore it's not fully prepared to work with collaborative projects like TerraformCloud or SpaceLift.***
+
+>  - Although it can work with code written in team projects, it cannot perform CI/CD, code reviews, dev permissions, backend state, etc.
+
+>  - CloudStudio is mainly conceived for solo projects (e.g. side hustles, learning process) or personal stage versions of team projects.
+:::
+
+::: warning No PASSPHRASE on ssh keys
+
+***The app is prepared to create, store and manage SSH keys for ansible connections, but it cannot run ansible commands on projects that use keys with a passphrase.***
+
+>  - Ansible needs the passphrase of an SSH key to establish connection, but the app can't run the ansible-playbook command in that case.
+
+>  - Therefore the app needs the SSH key with no passphrase to be able to run the ansible-playbook command successfully.
+:::
