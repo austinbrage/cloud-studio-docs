@@ -58,6 +58,7 @@ function sidebarGuide() {
       items: [
         { text: 'Terraform', link: 'terraform-tool' },
         { text: 'Ansible', link: 'ansible-tool' },
+        { text: 'Infracost', link: 'infracost-tool' },
       ]
     },
     {
