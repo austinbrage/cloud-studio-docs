@@ -10,17 +10,17 @@ The desktop application consists of an intuitive dashboard for seamlessly switch
 
 On the main dashboard you will find the state and version of the required tools for the app, as well as the **PROVIDERS** folders of the workdir on the sidemenu.
 
-![Initial Dashboard](../assets/images/examples_dashboard/main_dashboard_2.png)
+![Initial Dashboard](../assets/images/examples_dashboard/main_dashboard.png)
 
 ## Projects
 
-When selecting a provider, a new view will open with all the projects on the sidemenu, the status of the projects on the center *(deployed, destroyed, etc)*. 
+When selecting a provider, a new view will open with all the projects on the sidemenu, and the status of the projects on the center *(deployed, destroyed, etc)*. 
 
 > *And the botton icons on the top to go to templates, modules, secrets and keys.*
 
 ![Initial Dashboard](../assets/images/examples_dashboard/projects_dashboard.png)
 
-Once you select a project, it's gonna display the tfVars variable, and the buttons for running commands such as **apply**, **plan**, and more. 
+Once you select a project, it's gonna display the tfVars variable, and the buttons for running commands such as **apply**, **plan**, **destroy**, **ansible-playbook**, and more. 
 
 > *Including (re)deploy project button which runs init, apply and ansible-playbook.*
 
