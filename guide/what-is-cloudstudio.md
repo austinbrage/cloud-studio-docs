@@ -1,6 +1,6 @@
 # What is Cloud Studio?
 
-[Cloud Studio](https://brage.pages.dev), is a desktop application designed for creating fast and reliable infrastructure on any cloud provider.
+**Cloud Studio**, is a desktop application designed for creating fast and reliable infrastructure on any cloud provider.
 
 It edits TERRAFORM and ANSIBLE files on the screen interface and gives action buttons to run the main commands for these tools on your current cloud provider.
 
@@ -47,7 +47,7 @@ It is a desktop application made in ElectronJS, which uses a work directory to s
 
 ::: info Official Workdir
 
-***Stored on a public GitHub repo there is an official workdir https://github.com/austinbrage/cloud-studio-docs that is intened to be used by the DESKTOP APP.***
+***Stored on a public GitHub repo there is an official workdir https://github.com/austinbrage/cloud-studio-workdir that is intened to be used by the DESKTOP APP.***
 
 - This repo contains templates for projects on the 3 main cloud providers; AWS, AZURE, GOOGLE 
 :::

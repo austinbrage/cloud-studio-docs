@@ -17,7 +17,7 @@ CloudStudio utilizes the Infracost program as one of its secondary components to
 :::
 
 ## Overview
-Infracost is a cost estimation tool designed to provide real-time visibility into cloud infrastructure costs during the development process.
+Infracost is a cost estimation tool designed to provide real-time visibility into cloud infrastructure costs during the development and production process.
 
 > It empowers users to forecast and optimize cloud expenses by integrating directly with IaC (Infrastructure as Code) workflows like Terraform.
 
