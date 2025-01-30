@@ -1,6 +1,6 @@
 # What is Cloud Studio?
 
-**Cloud Studio**, is a desktop application designed for creating fast and reliable infrastructure on any cloud provider.
+Officially **Cloud Studio Pro**, is a desktop application designed for creating fast and reliable infrastructure on any cloud provider.
 
 It edits TERRAFORM and ANSIBLE files on the screen interface and gives action buttons to run the main commands for these tools on your current cloud provider.
 
@@ -25,13 +25,13 @@ Just want to see it in action? Skip to the [Examples](./app-examples).
 
 - **Web and data engineers with no devops experience**
 
-  > A common use of CloudStudio is building infrastructure with little or no knowledge of Devops, scaffolding built-in templates for new projects on the dashboard.
+  > A common use of CloudStudio is building infrastructure with little or no knowledge of DevOps, scaffolding built-in templates for new projects on the dashboard.
   
   > ***How?: The application provides reliable and tested terraform/ansible code files, editable by the user on a intuitive UI. [CloudStudio gives IaC, you edit it and run it]***
 
 - **Big complecated Infrastructure**
 
-  > Another common use is by devops engineers to create a large cloud infrastructure that can easily get out of control during development.
+  > Another common use is by DevOps engineers to create a large cloud infrastructure that can easily get out of control during development.
 
   > ***Why?: When having several servers, databases, buckets, etc the application provides with already tested infraestructure. [CloudStudio scaffolds complex IaC]***
 

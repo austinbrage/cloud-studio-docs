@@ -1,6 +1,6 @@
 # ¿Qué es Cloud Studio?
 
-**Cloud Studio**, es una aplicación de escritorio diseñada para desarrollar rápidamente infraestructura en cualquier proveedor en la nube.
+Oficialmente **Cloud Studio Pro**, es una aplicación de escritorio diseñada para desarrollar rápidamente infraestructura en cualquier proveedor en la nube.
 
 Edita archivo TERRAFORM y ANSIBLE en la interfaz, dando butones para accionar y ejecutar los comandos principales de estas herramientas en el proveedor en la nube.
 
