@@ -4,7 +4,7 @@
 
 Download the application installers for **Long Time Support** version:
 
-- [Windows Installer (64-bit)](https://cloud-studio-dev-8wnu.s3.us-east-1.amazonaws.com/stable/CloudStudio-Windows-LTS-Setup.zip)
+- [Windows Installer (64-bit)](https://cloud-studio-prod-cwhz.s3.us-east-1.amazonaws.com/stable/CloudStudio-Windows-LTS-Setup.zip)
 
 ::: info
 MacOS and Linux installers will be available in the future. Please stay tuned for updates.
