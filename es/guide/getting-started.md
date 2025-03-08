@@ -2,7 +2,13 @@
 
 ## Intaladores de la aplicación
 
-[Place installer files]
+Descargá los instaladores de la aplicación para la versión de **Soporte a largo plazo**:
+
+- [Instalador de Windows (64-bit)](https://cloud-studio-prod-cwhz.s3.us-east-1.amazonaws.com/stable/CloudStudio-Windows-LTS-Setup.zip)
+
+::: info
+Los instaladores de MacOS y Linux estarán disponibles en el futuro. Por favor, mantenete al tanto de las actualizaciones.
+:::
 
 ## Panel de control vacío
 
