@@ -4,7 +4,7 @@ export const en = defineConfig({
 
     lang: 'en-US',
     title: "Cloud studio",
-    description: "Desktop App for fast devop documentation",
+    description: "CloudStudio is a desktop app that creates, edits and executes terraform / ansible projects",
 
     head: [
         ['link', { rel: "icon", type: 'image/svg+xml', href: "/cloudLogoHead.svg"}],
