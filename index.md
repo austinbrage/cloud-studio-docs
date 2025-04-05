@@ -14,6 +14,9 @@ hero:
     - theme: alt
       text: Get Started
       link: /guide/getting-started
+    - theme: alt
+      text: Landing page
+      link: https://cloudstudiopro.app
   image:
     src: /cloudLogo.svg
     alt: BrageTools
