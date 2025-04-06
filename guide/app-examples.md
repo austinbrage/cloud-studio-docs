@@ -6,6 +6,12 @@ outline: deep
 
 The desktop application consists of an intuitive dashboard for seamlessly switching between `PROVIDERS`, `PROJECTS`, `MODULES`, `TEMPLATES`.
 
+<div class="tip custom-block" style="padding-top: 8px">
+
+To see it in action check this [Video overview](https://www.youtube.com/watch?v=GYM_bfkdrZI).
+
+</div>
+
 ## Providers
 
 On the main dashboard you will find the state and version of the required tools for the app, as well as the **PROVIDERS** folders of the workdir on the sidemenu.

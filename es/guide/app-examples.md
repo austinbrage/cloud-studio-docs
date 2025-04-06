@@ -6,6 +6,13 @@ outline: deep
 
 La aplicación de escritorio consiste en un panel de control intuitivo para navegar fácilmente entre `PROVEEDORES`, `PROYECTOS`, `MÓDULOS`, `PLANTILLAS`.
 
+<div class="tip custom-block" style="padding-top: 8px">
+
+Para verlo en acción chequeá este [Video de vista general](https://www.youtube.com/watch?v=GYM_bfkdrZI).
+
+</div>
+
+
 ## Proveedores
 
 En el panel de control principal, encontrarás el estado y versión de las herramientas requeridas por la app, al igual que las carpetas de los **PROVEEDORES** del "workdir".
